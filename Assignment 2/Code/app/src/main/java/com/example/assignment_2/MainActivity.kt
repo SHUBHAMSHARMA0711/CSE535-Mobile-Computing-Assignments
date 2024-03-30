@@ -522,7 +522,7 @@ private fun calculateAvgTemperature(
             var avgCurTemp = 0.0
             var avgMinTemp = 0.0
             var avgMaxTemp = 0.0
-            for (i in 0..10) {
+            for (i in 1..10) {
                 val date = date.split("-").let {
                     (it[0].toInt() - i).toString() + "-" + it[1] + "-" + it[2]
                 }
@@ -533,9 +533,9 @@ private fun calculateAvgTemperature(
                     avgMaxTemp += weatherData.maxTemp.toDouble()
                 }
             }
-            curTemp.value = (avgCurTemp / 11).toString()
-            minTemp.value = (avgMinTemp / 11).toString()
-            maxTemp.value = (avgMaxTemp / 11).toString()
+            curTemp.value = (avgCurTemp / 10).toString()
+            minTemp.value = (avgMinTemp / 10).toString()
+            maxTemp.value = (avgMaxTemp / 10).toString()
 
             displayWeather.value = true
             dateError.value = false
@@ -590,9 +590,9 @@ fun weatherAPICaller(
                             }
 
                             if (i == 10 && futureFlag) {
-                                curTemp.value = (avgCurTemp.value / 11).toString()
-                                minTemp.value = (avgMinTemp.value / 11).toString()
-                                maxTemp.value = (avgMaxTemp.value / 11).toString()
+                                curTemp.value = (avgCurTemp.value / 10).toString()
+                                minTemp.value = (avgMinTemp.value / 10).toString()
+                                maxTemp.value = (avgMaxTemp.value / 10).toString()
                             }
 
                             Log.d(
