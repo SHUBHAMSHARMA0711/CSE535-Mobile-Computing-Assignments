@@ -36,3 +36,6 @@ This Android app, implemented in Kotlin using Jetpack Compose, serves as a visua
 - Tap the `Reached` button when reaching a station to mark it as reached.
 - Use the `Km/Mi` button to toggle between distance units.
 - The progress bar visually represents the journey progress.
+
+## Screenshots
+<img src="./assets/SS_1.jpg" width = "300" hspace="130"> <img src="./assets/SS_2.jpg" width = "300">
