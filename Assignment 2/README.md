@@ -29,4 +29,4 @@ This App is designed to retrieve historical weather data for a specific date usi
 - If the user is offline and data in not available in database then app shows the "No Data Available for Selected Date" error message..
 
 ## Screenshots
-<img src="./assets/SS_1.jpg" width = "300"> <img src="./assets/SS_2.jpg" width = "300">
+<img src="./assets/SS_1.jpg" width = "300" hspace="130"> <img src="./assets/SS_2.jpg" width = "300">
