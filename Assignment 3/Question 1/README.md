@@ -18,3 +18,6 @@ B1. **Prediction Model:**
    - We uses a Python script to load this CSV file and use an auto ARIMA model to predict the next 10 seconds of orientation values.
    - The predicted values are plotted against the actual values to visualize the accuracy of the prediction.
    - We repeat the same process for three different sensing time intervals such as 100 ms, 500 ms, 1000 ms.
+
+## Screenshots
+<img src="./assets/SS_1.jpg" width = "300" hspace="130"> <img src="./assets/SS_2.jpg" width = "300">
